@@ -1,0 +1,7 @@
+<h1>List of items</h1>
+<table>
+    <tr><th>Name</th><th>Price</th></tr>
+    <% @items.each do |item| %> 
+        <tr><td><%= item.name %></td><td><%= item.price %></td></tr>
+    <% end %>
+</table>
